@@ -2,4 +2,4 @@
 A boilerplate for next generation images (with fallback) and different resolutions
 
 
-[Demo Live](https://next-gen-imgs.netlify.com/)
+[Live Demo](https://next-gen-imgs.netlify.com/)
