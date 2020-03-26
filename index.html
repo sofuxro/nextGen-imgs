@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title>NextGen image</title>
+        <meta
+            name="description"
+            content="NextGen image and different resolutions"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.ico" />
+
+        <meta name="theme-color" content="#fafafa" />
+    </head>
+
+    <body>
+        <picture>
+            <source
+                type="image/webp"
+                media="(max-width: 799px)"
+                srcset="img/snowboard.webp"
+            />
+            <source
+                type="image/webp"
+                media="(min-width: 800px)"
+                srcset="img/snowboard.2x.webp"
+            />
+            <source
+                type="image/jpeg"
+                media="(max-width: 799px)"
+                srcset="img/snowboard.jpeg"
+            />
+            <source
+                type="image/jpeg"
+                media="(min-width: 800px)"
+                srcset="img/snowboard.2x.jpeg"
+            />
+            <img src="img/snowboard.jpg" alt="" />
+        </picture>
+    </body>
+</html>
